@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>彈窗</title>
+	</head>
+    <body>
+        
+    </body>
+</html>
+<script>
+            var myDate = new Date();
+            var mytime = myDate.getHours();
+            var time = parseInt(mytime);
+            if(time>6 && time<=12){
+                alert("早上好");
+            }
+            if(time>12 && time <=18){
+                alert("下午好");
+            }
+            if(time>18 && time<=24){
+                alert("晚上好");
+            }
+            if(time>0 && time<=6){
+                alert("凌晨好");
+            }
+</script>
